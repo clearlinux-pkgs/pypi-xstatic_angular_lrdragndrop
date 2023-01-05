@@ -4,7 +4,7 @@
 #
 Name     : pypi-xstatic_angular_lrdragndrop
 Version  : 1.0.2.4
-Release  : 5
+Release  : 6
 URL      : https://files.pythonhosted.org/packages/58/0a/922a53c43903ca88ea172a26057688fe8b83c9a20323dc6769951db12fd4/XStatic-Angular-lrdragndrop-1.0.2.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/58/0a/922a53c43903ca88ea172a26057688fe8b83c9a20323dc6769951db12fd4/XStatic-Angular-lrdragndrop-1.0.2.4.tar.gz
 Summary  : Angular-lrdragndrop 1.0.2 (XStatic packaging standard)
