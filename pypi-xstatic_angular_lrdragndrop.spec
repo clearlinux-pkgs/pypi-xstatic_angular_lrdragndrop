@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-xstatic_angular_lrdragndrop
-Version  : 1.0.2.5
-Release  : 7
-URL      : https://files.pythonhosted.org/packages/82/15/3bb045e68906e21b20be06949453441aec523288696a56a2878afb24232a/XStatic-Angular-lrdragndrop-1.0.2.5.tar.gz
-Source0  : https://files.pythonhosted.org/packages/82/15/3bb045e68906e21b20be06949453441aec523288696a56a2878afb24232a/XStatic-Angular-lrdragndrop-1.0.2.5.tar.gz
+Version  : 1.0.2.6
+Release  : 8
+URL      : https://files.pythonhosted.org/packages/22/4c/92093256c67c042166ca70d5ff7db2971a25db13c6402fa988ad2c080d76/XStatic-Angular-lrdragndrop-1.0.2.6.tar.gz
+Source0  : https://files.pythonhosted.org/packages/22/4c/92093256c67c042166ca70d5ff7db2971a25db13c6402fa988ad2c080d76/XStatic-Angular-lrdragndrop-1.0.2.6.tar.gz
 Summary  : Angular-lrdragndrop 1.0.2 (XStatic packaging standard)
 Group    : Development/Tools
 License  : MIT
@@ -52,10 +52,10 @@ python3 components for the pypi-xstatic_angular_lrdragndrop package.
 
 
 %prep
-%setup -q -n XStatic-Angular-lrdragndrop-1.0.2.5
-cd %{_builddir}/XStatic-Angular-lrdragndrop-1.0.2.5
+%setup -q -n XStatic-Angular-lrdragndrop-1.0.2.6
+cd %{_builddir}/XStatic-Angular-lrdragndrop-1.0.2.6
 pushd ..
-cp -a XStatic-Angular-lrdragndrop-1.0.2.5 buildavx2
+cp -a XStatic-Angular-lrdragndrop-1.0.2.6 buildavx2
 popd
 
 %build
@@ -63,7 +63,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1689695056
+export SOURCE_DATE_EPOCH=1689783359
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

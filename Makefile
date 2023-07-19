@@ -1,5 +1,5 @@
 PKG_NAME := pypi-xstatic_angular_lrdragndrop
-URL = https://files.pythonhosted.org/packages/82/15/3bb045e68906e21b20be06949453441aec523288696a56a2878afb24232a/XStatic-Angular-lrdragndrop-1.0.2.5.tar.gz
+URL = https://files.pythonhosted.org/packages/22/4c/92093256c67c042166ca70d5ff7db2971a25db13c6402fa988ad2c080d76/XStatic-Angular-lrdragndrop-1.0.2.6.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
